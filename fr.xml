@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
+<!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
+<!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+	<header>
+		<meta name="generator" content="MODX file generated with PP MODX Creator 1.0.1 by tumba25 (phpBB version) (French translation by Sylver35)"/>
+		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
+		<title lang="en"><![CDATA[Anti-Spam ACP 1.0.5]]></title>
+		<title lang="fr"><![CDATA[Anti-Spam ACP 1.0.5]]></title>
+		<description lang="en"><![CDATA[Anti-Spam ACP adds many powerful anti-spam features to your phpBB3 forum such as an Akismet integration, Stop Forum Spam Integration, an IP Search tool, Spam Word list, control over profile fields, flagging suspicious users (for logging their actions), and an easy one click ban link from their profile which clears out their profile and posts.]]></description>
+		<description lang="fr"><![CDATA[Anti-Spam ACP ajoute nombreuses et puissantes fonctionnalités anti-spam à votre Forum phpBB3 comme Akismet integration, Stop Forum Spam Integration, IP Search tool (un outil de recherche d'adresses IP), Spam Word list (liste de mots spam), control over profile fields (contrôle des champs de profil), flagging suspicious users (balisage utilisateurs suspects pour suivre leurs actions), et un bannissement à partir de leur profil qui efface leur profil et leurs messages en un clic.]]></description>
+		<author-notes lang="en"><![CDATA[fichiers de langue française. 
+faire aussi les instructions du fichier install.xml du mod]]></author-notes>
+		<author-notes lang="fr"><![CDATA[fichiers de langue française. 
+faire aussi les instructions du fichier install.xml du mod]]></author-notes>
+		<author-group>
+			<author>
+				<realname><![CDATA[Gabriel Fischer]]></realname>
+				<username><![CDATA[EXreaction]]></username>
+				<homepage><![CDATA[http://lithiumstudios.org]]></homepage>
+				<contributions-group>
+					<contributions status="current" position="Auteur"/>
+				</contributions-group>
+			</author>
+			<author>
+				<realname><![CDATA[Patrice Pichon]]></realname>
+				<username><![CDATA[papicx]]></username>
+				<homepage><![CDATA[http://cxclub.org/phpbb/portal.php]]></homepage>
+				<email><![CDATA[papicx@phpbb-fr.com]]></email>
+				<contributions-group>
+					<contributions status="current" from="juillet 2012" position="traducteur"/>
+				</contributions-group>
+			</author>
+		</author-group>
+		<mod-version>1.0.5</mod-version>
+		<installation>
+			<level>intermediate</level>
+			<time>600</time>
+			<target-version>3.0.11</target-version>
+		</installation>
+	</header>
+	<action-group>
+		<copy>
+			<file from="root/language/fr/mods/*.*" to="language/fr/mods/*.*"/>
+		</copy>
+	</action-group>
+</mod>
