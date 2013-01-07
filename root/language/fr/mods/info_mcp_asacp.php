@@ -4,7 +4,7 @@
 * info_mcp_asacp	[french]
 *
 * @package Anti-Spam ACP
-* @version $Id$	info_mcp_asacp.php 25/11/2012 c
+* @version $Id	info_mcp_asacp.php	07/01/2013 23h10 $
 * @copyright (c) 2008 EXreaction
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @translator papicx@phpbb-fr.com   http://forums.phpbb-fr.com
@@ -57,10 +57,10 @@ $lang = array_merge($lang, array(
 	'LOG_INCORRECT_CODE_DATA'		=> 'Code affiché : « %s »<br />Code saisie : « %s »',
 	'LOG_USER_SFS_ACTIVATION'		=> '%s enregistré et marqué comme un possible compte de spam par Stop Forum Spam.',
 	'LOG_SENT_PM'					=> 'Envoyer un message privé<br />à la liste : %s',
-	'LOG_SPAM_PM_DENIED'			=> 'Un message privé a été marqué comme spam et interdit d’envoi.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
-	'LOG_SPAM_PM_DENIED_AKISMET'	=> 'Un message privé a été marqué comme spam par Akismet et interdit d’envoi.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
-	'LOG_SPAM_POST_DENIED'			=> 'Un message a été marqué comme spam et interdit d’envoi.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
-	'LOG_SPAM_POST_DENIED_AKISMET'	=> 'Un message a été marqué comme spam par Akismet et interdit d’envoi.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_PM_DENIED'			=> 'Un message privé a été marqué comme spam et n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_PM_DENIED_AKISMET'	=> 'Un message privé a été marqué par Akismet comme spam et n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_POST_DENIED'			=> 'Un message a été marqué comme spam et n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_POST_DENIED_AKISMET'	=> 'Un message a été marqué par Akismet comme spam et interdit n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
 	'LOG_SPAM_PROFILE_DENIED'		=> 'Un ou plusieurs champs du profil étaient marqué(s) comme Spam.<br />Les informations soumises :<br /><br />%s',
 	'LOG_SPAM_SIGNATURE_DENIED'		=> 'La signature a été marquée comme spam.<br />La signature était :<br />%s',
 	'LOG_USER_FLAGGED'				=> '%s a été marqué.',
