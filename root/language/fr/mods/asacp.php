@@ -50,22 +50,22 @@ $lang = array_merge($lang, array(
 	'ASACP_BAN_REASON_SHOWN_TO_USER_EXPLAIN'	=> 'Si un message est inscrit ici, il sera visible par l’utilisateur ayant été banni.',
 
 	'ASACP_CREDITS'			=> 'Protégé par <a href="http://www.lithiumstudios.org" onclick="window.open(this.href); return false;">Anti-Spam ACP</a>',
-	'ASACP_EVIDENCE_SFS'	=> 'Si vous soumettez des informations à Stop Forum Spam, vous devez présenter une preuve ici.<br />(maxi 8.000 caractères).',
+	'ASACP_EVIDENCE_SFS'	=> 'Si vous soumettez des informations à Stop Forum Spam, vous devez indiquer une raison probante.<br />(maxi 8.000 caractères).',
 
-	'FOUNDER_ONLY'			=> 'Vous devez êtes Fondateur du forum pour accéder à cette fonctionnalité.',
+	'FOUNDER_ONLY'			=> 'Vous devez être Fondateur du forum pour accéder à cette fonctionnalité.',
 
 	'IP_SEARCH'				=> 'Trouver l’adresse IP',
 
 	'MORE'					=> 'Plus',
 
-	'PROFILE_SPAM_DENIED'	=> 'Un ou plusieurs des champs saisis sont considérés comme du spam.',
+	'PROFILE_SPAM_DENIED'	=> 'Certains des champs renseignés sont considérés comme du spam.',
 
 	'REMOVE_ASACP'			=> 'Supprimer Anti-Spam ACP',
 	'REMOVE_ASACP_CONFIRM'	=> 'Êtes vous sûr de vouloir supprimer les modifications faites par le MOD Anti-Spam ACP ?<br /><br />Auparavant, assurez-vous que les modifications des sources aient été supprimées ou les modifications de la bases de données seront automatiquement refaites.',
 
 	'SFS_SUBMIT'			=> 'Soumettre les informations de profil à <a href="http://www.stopforumspam.com/">Stop Forum Spam</a>.',
 	'SIGNATURE_DISABLED'	=> 'Vous n’êtes pas autorisé à utiliser une signature.',
-	'SPAM_DENIED'			=> 'Ce message a été marqué comme Spam et a été refusé.',
+	'SPAM_DENIED'			=> 'Ce message a été marqué comme spam et a été refusé.',
 	'STOP_FORUM_SPAM'		=> 'Stop Forum Spam',
 
 	'USER_FLAG'				=> 'Marquage',
