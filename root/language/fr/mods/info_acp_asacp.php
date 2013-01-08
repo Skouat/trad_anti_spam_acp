@@ -43,46 +43,46 @@ $lang = array_merge($lang, array(
 	'ASACP_IP_SEARCH'				=> 'Recherche d’adresse IP',
 	'ASACP_PROFILE_FIELDS'			=> 'Champs de profil',
 	'ASACP_SETTINGS'				=> 'Paramètrage d’Anti-Spam ACP',
-	'ASACP_SPAM_LOG'				=> 'Journal des Spams',
-	'ASACP_SPAM_WORDS'				=> 'Mots de Spam',
+	'ASACP_SPAM_LOG'				=> 'Journal des spams',
+	'ASACP_SPAM_WORDS'				=> 'Mots de Spams',
 
 	'LOG_ADDED_POST'				=> 'Ajout d’un message',
 	'LOG_ALTERED_PROFILE'			=> 'Information de profil modifié',
 	'LOG_ALTERED_SIGNATURE'			=> 'Signature modifiée',
-	'LOG_ASACP_SETTINGS'			=> 'Paramètrage d’Anti-Spam ACP modifié',
-	'LOG_CLEAR_FLAG_LOG'			=> 'Journal des marquages effacés',
-	'LOG_CLEAR_SPAM_LOG'			=> 'Journal des spams effacés',
+	'LOG_ASACP_SETTINGS'			=> 'Mise à jour des paramètres d’Anti-Spam ACP',
+	'LOG_CLEAR_FLAG_LOG'			=> 'Journal des marquages effacé',
+	'LOG_CLEAR_SPAM_LOG'			=> 'Journal des spams effacé',
 	'LOG_EDITED_POST'				=> 'Message édité',
 	'LOG_INCORRECT_CODE'			=> 'Code de confirmation erroné.',
 	'LOG_INCORRECT_CODE_DATA'		=> 'Code affiché : « %s »<br />Code saisi : « %s »',
 	'LOG_USER_SFS_ACTIVATION'		=> '%s enregistré et marqué comme un possible compte de spam par Stop Forum Spam.',
 	'LOG_SENT_PM'					=> 'Envoyer un message privé<br />à la liste : %s',
-	'LOG_SPAM_PM_DENIED'			=> 'Un message privé a été marqué comme spam et n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
-	'LOG_SPAM_PM_DENIED_AKISMET'	=> 'Un message privé a été marqué par Akismet comme spam et n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
-	'LOG_SPAM_POST_DENIED'			=> 'Un message a été marqué comme spam et n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
-	'LOG_SPAM_POST_DENIED_AKISMET'	=> 'Un message a été marqué par Akismet comme spam et interdit n’a pas été autorisé a être envoyé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
-	'LOG_SPAM_PROFILE_DENIED'		=> 'Un ou plusieurs champs du profil étaient marqué(s) comme Spam.<br />Les informations soumises :<br /><br />%s',
+	'LOG_SPAM_PM_DENIED'			=> 'Un message privé a été marqué comme spam. Son envoi n’a pas été autorisé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_PM_DENIED_AKISMET'	=> 'Un message privé a été marqué par Akismet comme spam. Son envoi n’a pas été autorisé.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_POST_DENIED'			=> 'Un message a été marqué comme spam. Sa publication n’a pas été autorisée.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_POST_DENIED_AKISMET'	=> 'Un message a été marqué par Akismet comme spam. Sa publication n’a pas été autorisée.<br />Le sujet du message était :<br />%s<br /><br />Le message était :<br />%s',
+	'LOG_SPAM_PROFILE_DENIED'		=> 'Certains champs du profil étaient marqués comme Spam.<br />Informations soumises :<br /><br />%s',
 	'LOG_SPAM_SIGNATURE_DENIED'		=> 'La signature a été marquée comme spam.<br />La signature était :<br />%s',
 	'LOG_USER_FLAGGED'				=> '%s a été marqué.',
 	'LOG_USER_UNFLAGGED'			=> 'Le marquage de %s a été retiré.',
 
 	'acl_a_asacp'					=> array(
-		'lang'						=> 'Peut gérer « Anti-Spam ACP »',
+		'lang'						=> 'Peut gérer Anti-Spam ACP',
 		'cat'						=> 'settings',
 	),
 
 	'acl_m_asacp_ban'				=> array(
-		'lang'						=> 'Peut utiliser « Bannir en un Clic »',
+		'lang'						=> 'Peut utiliser bannir en un clic »',
 		'cat'						=> 'misc',
 	),
 
 	'acl_m_asacp_ip_search'			=> array(
-		'lang'						=> 'Peut utiliser la « Recherche d’adresse IP »',
+		'lang'						=> 'Peut utiliser la recherche d’adresse IP »',
 		'cat'						=> 'misc',
 	),
 
 	'acl_a_asacp_profile_fields'	=> array(
-		'lang'						=> 'Peut modifier le paramétrage de « Champs de profil »',
+		'lang'						=> 'Peut modifier le paramétrage de champs de profil',
 		'cat'						=> 'settings',
 	),
 
@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 	),
 
 	'acl_m_asacp_user_flag'			=> array(
-		'lang'						=> 'Peut « Marquer l’utilisateur », voir le « Journal des marquages » et la « Liste des utilisateurs marqués »',	
+		'lang'						=> 'Peut marquer l’utilisateur, voir le journal des marquages et la liste des utilisateurs marqués »',
 		'cat'						=> 'misc',
 	),
 
