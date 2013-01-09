@@ -4,7 +4,7 @@
 * info_acp_asacp	[french]
 *
 * @package Anti-Spam ACP
-* @version $Id	info_acp_asacp.php	07/01/2013 22h55 $
+* @version $Id	info_acp_asacp.php	09/01/2013 15h14 $
 * @copyright (c) 2008 EXreaction
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @translator papicx@phpbb-fr.com   http://forums.phpbb-fr.com
@@ -72,12 +72,12 @@ $lang = array_merge($lang, array(
 	),
 
 	'acl_m_asacp_ban'				=> array(
-		'lang'						=> 'Peut utiliser bannir en un clic »',
+		'lang'						=> 'Peut utiliser bannir en un clic',
 		'cat'						=> 'misc',
 	),
 
 	'acl_m_asacp_ip_search'			=> array(
-		'lang'						=> 'Peut utiliser la recherche d’adresse IP »',
+		'lang'						=> 'Peut utiliser la recherche d’adresse IP',
 		'cat'						=> 'misc',
 	),
 
@@ -87,17 +87,17 @@ $lang = array_merge($lang, array(
 	),
 
 	'acl_m_asacp_spam_log'			=> array(
-		'lang'						=> 'Peut voir le « Journal des Spam »',
+		'lang'						=> 'Peut voir le journal des spams',
 		'cat'						=> 'misc',
 	),
 
 	'acl_a_asacp_spam_words'		=> array(
-		'lang'						=> 'Peut gérer la « Liste des Mots de Spam »',
+		'lang'						=> 'Peut gérer la liste des mots de spams',
 		'cat'						=> 'settings',
 	),
 
 	'acl_m_asacp_user_flag'			=> array(
-		'lang'						=> 'Peut marquer l’utilisateur, voir le journal des marquages et la liste des utilisateurs marqués »',
+		'lang'						=> 'Peut marquer l’utilisateur, voir le journal des marquages et la liste des utilisateurs marqués',
 		'cat'						=> 'misc',
 	),
 

@@ -4,7 +4,7 @@
 * info_mcp_asacp	[french]
 *
 * @package Anti-Spam ACP
-* @version $Id	info_mcp_asacp.php	07/01/2013 23h10 $
+* @version $Id	info_mcp_asacp.php	09/01/2013 15h20 $
 * @copyright (c) 2008 EXreaction
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @translator papicx@phpbb-fr.com   http://forums.phpbb-fr.com

@@ -4,7 +4,7 @@
 *	acp_asacp [french]
 *
 * @package Anti-Spam ACP
-* @version $Id acp_asacp.php	25/11/2012 c $
+* @version $Id acp_asacp.php	08/01/2013 22h18 $
 * @copyright (c) 2008 EXreaction
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @translator papicx@phpbb-fr.com   http://forums.phpbb-fr.com
